@@ -17,7 +17,7 @@ function sendEmail() {
     // formData.append('description', 'JKC');
     // formData.append('email_to', 'saradindu96@gmail.com');
 
-    fetch('http://0.0.0.0:8000/send-email', {
+    fetch('https://fastapi-ltsx.onrender.com/send-email', {
         method: 'POST',
         body: formData
     })
